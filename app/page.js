@@ -10,6 +10,7 @@ export default function Page() {
         </header><body>
             <h1>Welcome to Dream Cloud Hosting</h1>
             <p>The best webhosting service</p>
-        </body></>
+        </body> 
+        </>
     );
 }
