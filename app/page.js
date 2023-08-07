@@ -1,3 +1,3 @@
 export default function Page() {
-    return <h1>Welcome to Dream Cloud Hosting</h1>;
+    return <body><h1>Welcome to Dream Cloud Hosting</h1><p>The best webhosting service</p></body>;
 }
