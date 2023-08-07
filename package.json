@@ -1,0 +1,20 @@
+{
+    "name": "website-frontend",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "check-and-fix-lint": "(echo '\n---\n\nScanning for lint error...' && eslint .) || (echo '\n\n---\n\nFound lint error, working on it...' && eslint . --fix) || echo \"\n\nWARNING: There are some error that can't be fixed automatically!\"",
+        "lintfix": "npm run --silent check-and-fix-lint"
+    },
+    "dependencies": {
+        "eslint": "8.46.0",
+        "eslint-config-next": "13.4.12",
+        "next": "13.4.12",
+        "react": "18.2.0",
+        "react-dom": "18.2.0"
+    }
+}
