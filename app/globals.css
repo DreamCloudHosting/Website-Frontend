@@ -18,7 +18,7 @@ a{
 .navbar{
 	display: flex;
 	height: 3.7rem;
-	justify-content: space-between;
+	justify-content: flex-startend;
 	align-items: center;
 	padding-top: 0.4rem;
 	border-bottom: 2px solid rgba(0, 94, 255, 0);
@@ -76,7 +76,7 @@ cursor: pointer;
 		display: block;
 		position: static;
 		width: auto;
-		margin-right:20px;
+		margin-right:0px;
 		background: none;
 	}
 	.nav-menu a{
@@ -85,7 +85,7 @@ cursor: pointer;
 	}
 	.nav-menu a:hover{
 		background-color: rgb(166, 205, 231);
-		border-radius: 5px;
+		border-radius: 3px;
 	}
 	.hamburger-menu{
 		display: none;
@@ -115,8 +115,13 @@ cursor: pointer;
   }
   
   a {
-    color: #4d4ae8;
+    color: #040c7b;
     text-decoration: none;
+  }
+
+  .readmore {
+    color: #4d4ae8;
+	text-decoration: none;
   }
   .card {
     /* other styles */

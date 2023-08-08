@@ -23,9 +23,10 @@ export default function Page() {
                 </div>
                 <div class="nav-menu hide">
                     <a href="#">Home</a>
-                    <a href="#">Career</a>
+                    <a href="#">Price</a>
+                    <a href="#">Service</a>
                     <a href="#">About Us</a>
-                    <a href="#">Contact</a>
+                    <a href="#">Contact Us</a>
                 </div>
             </nav>
         </header>
@@ -36,7 +37,7 @@ export default function Page() {
             <div class="card">
                 <h3 class="card-title">Minecraft Server Hosting</h3>
                 <p>A reliable self-hosting server is used to provide the best service for you to play with your friends.</p>
-                <a href="#">Read more</a>
+                <a class="readmore"href="#">Read more</a>
             </div>
         </body>
         <script src="./script.js" async></script>
