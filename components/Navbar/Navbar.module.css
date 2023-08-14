@@ -1,0 +1,27 @@
+.navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: rgba(0, 0, 0, 0.13);
+    border-bottom: 2px solid rgb(0, 94, 255);
+    backdrop-filter: blur(3px);
+    z-index: 9999;
+}
+
+.logoImg {
+    width: auto;
+    height: 4rem;
+    padding-bottom: 10px;
+}
+
+.menu {
+    display: flex;
+    height: auto;
+    background: none;
+    list-style-type: none;
+}
