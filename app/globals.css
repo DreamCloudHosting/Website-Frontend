@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    transition: all 0.4s;
 }
 
 body {
@@ -18,12 +17,6 @@ a {
     color: black;
     font-size: 1rem;
     font-weight: bold;
-}
-
-.topBlock {
-    display: block;
-    height: 100px;
-    width: 100%;
 }
 
 /* logo style */
@@ -82,4 +75,23 @@ a {
         color: #040c7b;
         text-decoration: none;
     }
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* 網頁捲軸【背景】顏色 */
+::-webkit-scrollbar-track {
+    background: #3b405e;
+}
+
+/* 網頁捲軸【把手】顏色 */
+::-webkit-scrollbar-thumb {
+    background: #5294e2;
+}
+
+/* 網頁捲軸【滑過時】把手的顏色 */
+::-webkit-scrollbar-thumb:hover {
+    background: #005eff;
 }
