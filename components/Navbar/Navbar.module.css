@@ -2,12 +2,12 @@
     position: fixed;
     left: 0;
     top: 0;
-    height: 100px;
+    height: auto;
     width: 100vw;
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-    background-color: rgba(0, 0, 0, 0.13);
+    background-color: rgba(0, 0, 0, 0.7);
     border-bottom: 2px solid rgb(0, 94, 255);
     backdrop-filter: blur(3px);
     z-index: 9999;
@@ -15,13 +15,37 @@
 
 .logoImg {
     width: auto;
-    height: 4rem;
-    padding-bottom: 10px;
+    height: 5rem;
+    padding: 10px 20px;
+    transition-duration: 0.2s;
 }
 
 .menu {
     display: flex;
-    height: auto;
     background: none;
     list-style-type: none;
+}
+
+.topBlock {
+    display: block;
+    width: 100%;
+    transition-duration: 0.3s;
+}
+
+@media (max-width: 900px) {
+    .navbar {
+        justify-content: flex-start;
+    }
+
+    .menu {
+        width: 0;
+        height: 0;
+        opacity: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .logoImg {
+        height: 4rem;
+    }
 }
