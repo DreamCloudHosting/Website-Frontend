@@ -1,3 +1,4 @@
+import styles from "./page.module.css";
 import ProductCard from "@/components/Card/Card";
 
 
@@ -8,12 +9,109 @@ export default function Page() {
                 <h1>This is test</h1>
             </div> */}
 
-            <ProductCard
-                title="Minecraft Server Hosting"
-                description="A reliable self-hosting server is used to provide the best service for you to play with your friends."
-                readMore="#"
-            />
 
+            <div className={styles.cardContainer}>
+                <ProductCard
+                    title="Minecraft Server Hosting"
+                    description="Enjoy seamless gameplay on our reliable self-hosted server designed for you and your friends."
+                    readMore="#"
+                />
+                <ProductCard
+                    title="Discord Bot Hosting"
+                    description="Power up your Discord server with reliable hosting for your bots, ensuring they're always online and ready to assist."
+                    readMore="#"
+                />
+                <ProductCard
+                    title="Test"
+                    description="Test test test test test test test test test test test test test test test test test test test test test"
+                    readMore="#"
+                />
+                <ProductCard
+                    title="Test"
+                    description="Test test test test test test test test test test test test test test test test test test test test test"
+                    readMore="#"
+                />
+                <ProductCard
+                    title="Test"
+                    description="Test test test test test test test test test test test test test test test test test test test test test"
+                    readMore="#"
+                />
+                <ProductCard
+                    title="Test"
+                    description="Test test test test test test test test test test test test test test test test test test test test test"
+                    readMore="#"
+                />
+                <ProductCard
+                    title="Test"
+                    description="Test test test test test test test test test test test test test test test test test test test test test"
+                    readMore="#"
+                />
+                <ProductCard
+                    title="Test"
+                    description="Test test test test test test test test test test test test test test test test test test test test test"
+                    readMore="#"
+                />
+                <ProductCard
+                    title="Test"
+                    description="Test test test test test test test test test test test test test test test test test test test test test"
+                    readMore="#"
+                />
+                <ProductCard
+                    title="Test"
+                    description="Test test test test test test test test test test test test test test test test test test test test test"
+                    readMore="#"
+                />
+                <ProductCard
+                    title="Test"
+                    description="Test test test test test test test test test test test test test test test test test test test test test"
+                    readMore="#"
+                />
+                <ProductCard
+                    title="Test"
+                    description="Test test test test test test test test test test test test test test test test test test test test test"
+                    readMore="#"
+                />
+                <ProductCard
+                    title="Test"
+                    description="Test test test test test test test test test test test test test test test test test test test test test"
+                    readMore="#"
+                />
+                <ProductCard
+                    title="Test"
+                    description="Test test test test test test test test test test test test test test test test test test test test test"
+                    readMore="#"
+                />
+                <ProductCard
+                    title="Test"
+                    description="Test test test test test test test test test test test test test test test test test test test test test"
+                    readMore="#"
+                />
+                <ProductCard
+                    title="Test"
+                    description="Test test test test test test test test test test test test test test test test test test test test test"
+                    readMore="#"
+                />
+                <ProductCard
+                    title="Test"
+                    description="Test test test test test test test test test test test test test test test test test test test test test"
+                    readMore="#"
+                />
+                <ProductCard
+                    title="Test"
+                    description="Test test test test test test test test test test test test test test test test test test test test test"
+                    readMore="#"
+                />
+                <ProductCard
+                    title="Test"
+                    description="Test test test test test test test test test test test test test test test test test test test test test"
+                    readMore="#"
+                />
+                <ProductCard
+                    title="Test"
+                    description="Test test test test test test test test test test test test test test test test test test test test test"
+                    readMore="#"
+                />
+            </div>
             {/* <script src="./script.js" async></script> */}
         </>
     );
