@@ -4,17 +4,14 @@
     text-align: center;
     padding: 15px 20px;
     margin: 0 -2px 0 0;
+    transition-duration: var(--transition-duration);
 }
 
 .option>p {
+    color: #5294e2;
     font-size: 1.3rem;
     padding: 0;
     margin: 0;
-}
-
-.option:hover {
-    background-color: rgb(166, 205, 231);
-    border-radius: 3px;
 }
 
 .option:hover .leftBorder {
