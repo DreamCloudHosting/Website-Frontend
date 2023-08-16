@@ -49,6 +49,7 @@ export default function RootLayout({ children }) {
         <html lang="en">
             <head>
                 <title>Dream Cloud Hosting</title>
+                <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
             </head>
             <body className={inter.className}>
                 <Navbar />
