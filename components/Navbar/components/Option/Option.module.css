@@ -1,10 +1,30 @@
-.option {
+.container {
     --transition-duration: 0.2s;
+    position: relative;
+    margin: 0 -2px 0 0;
+    transition-duration: var(--transition-duration);
+}
+
+.container:hover .leftBorder {
+    transition-delay: 0s;
+    transform: scaleY(1);
+}
+
+.container:hover .topBorder {
+    transition-delay: calc(var(--transition-duration) * (1 / 3));
+    transform: scaleY(1);
+}
+
+.container:hover .rightBorder {
+    transition-delay: calc(var(--transition-duration) * (2 / 3));
+    transform: scaleY(1);
+}
+
+.option {
+    display: block;
     position: relative;
     text-align: center;
     padding: 15px 20px;
-    margin: 0 -2px 0 0;
-    transition-duration: var(--transition-duration);
 }
 
 .option>p {
@@ -12,21 +32,6 @@
     font-size: 1.3rem;
     padding: 0;
     margin: 0;
-}
-
-.option:hover .leftBorder {
-    transition-delay: 0s;
-    transform: scaleY(1);
-}
-
-.option:hover .topBorder {
-    transition-delay: calc(var(--transition-duration) * (1 / 3));
-    transform: scaleY(1);
-}
-
-.option:hover .rightBorder {
-    transition-delay: calc(var(--transition-duration) * (2 / 3));
-    transform: scaleY(1);
 }
 
 .leftBorder {
