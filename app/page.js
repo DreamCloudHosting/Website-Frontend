@@ -14,11 +14,13 @@ export default function Page() {
                 <ProductCard
                     title="Minecraft Server Hosting"
                     description="Enjoy seamless gameplay on our reliable self-hosted server designed for you and your friends."
+                    image="/images/card/minecraft_server.jpg"
                     readMore="#"
                 />
                 <ProductCard
                     title="Discord Bot Hosting"
                     description="Power up your Discord server with reliable hosting for your bots, ensuring they're always online and ready to assist."
+                    image="/images/card/discord_bot.png"
                     readMore="#"
                 />
                 <ProductCard
