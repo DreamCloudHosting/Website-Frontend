@@ -1,15 +1,15 @@
 import styles from "./page.module.css";
 import ProductCard from "@/components/Card/Card";
+import DefaultMetadata from "@/modules/Metadata/default";
 
 
-export default function Page() {
+export const metadata = new DefaultMetadata().editValue({
+    title: "DCH | Home"
+});
+
+export default function HomePage() {
     return (
         <>
-            {/* <div class="Test">
-                <h1>This is test</h1>
-            </div> */}
-
-
             <div className={styles.cardContainer}>
                 <ProductCard
                     title="Minecraft Server Hosting"
@@ -24,8 +24,9 @@ export default function Page() {
                     readMore="#"
                 />
                 <ProductCard
-                    title="Test"
-                    description="Test test test test test test test test test test test test test test test test test test test test test"
+                    title="Website Hosting"
+                    description="Get reliable hosting for your website, ensuring it's always online and accessible to your visitors."
+                    image="/images/card/website_hosting.jpg"
                     readMore="#"
                 />
                 <ProductCard
@@ -114,7 +115,6 @@ export default function Page() {
                     readMore="#"
                 />
             </div>
-            {/* <script src="./script.js" async></script> */}
         </>
     );
 }
