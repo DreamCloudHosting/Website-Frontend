@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
         <NextAuthProvider>
             <html lang="en">
                 <head>
-                    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+                    <link rel="icon" type="image/x-icon" href="/images/favicon.png" />
                     <Script async src="https://analytics.on-cloud.eu.org/script.js" data-website-id="38ab723f-5b8c-42d8-82c2-7bd19cfdca46" />
                 </head>
                 <body className={inter.className}>
