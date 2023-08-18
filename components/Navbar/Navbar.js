@@ -5,6 +5,7 @@ import { useRef, useEffect, useState } from "react";
 
 import styles from "./Navbar.module.css";
 import Option from "./components/Option/Option";
+import AccountDropdown from "../AccountDropdown/AccountDropdown";
 
 
 export default function Navbar() {
@@ -33,19 +34,10 @@ export default function Navbar() {
                         className={styles.logoImg}
                     />
                 </Link>
-                {/* <div class="hamburger-menu">
-                <span class="line"></span>
-                <span class="line"></span>
-                <span class="line"></span>
-            </div> */}
                 <ul className={styles.menu}>
                     <Option
                         title="Home"
                         link="/"
-                    />
-                    <Option
-                        title="Pricing"
-                        link="#"
                     />
                     <Option
                         title="Services"
@@ -60,6 +52,9 @@ export default function Navbar() {
                         link="#"
                     />
                 </ul>
+                <AccountDropdown
+                    navbarHeight={navbarHeight}
+                />
             </nav>
             <div className={styles.topBlock} style={{ height: navbarHeight }} />
         </>
